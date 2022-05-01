@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/note_wallpaper"
+    tools:context=".updatenoteactivity">
+
+    <EditText
+        android:id="@+id/updatetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:hint="title"
+        android:textColor="@color/black"
+        android:textColorHighlight="#0E0909"
+        android:textColorHint="#0E0909"
+        android:textColorLink="#0B0505"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/updatedescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updatetitle"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:hint="description"
+        android:textColor="@color/black"
+        android:textColorHighlight="#130909"
+        android:textColorHint="#0E0707"
+        android:textColorLink="#0C0505"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/updatebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="UPDATE NOTE"
+        android:textColor="#F6EFEF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#00897B" />
+
+</RelativeLayout>
